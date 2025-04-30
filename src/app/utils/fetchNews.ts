@@ -8,8 +8,9 @@ export type Article = {
 }
 
 export async function fetchNews(): Promise<Article[]> {
-    const apiKey = "91f264aeca8645faacb0d5dc9339c17f";
+    const apiKey = process.env.NEXT_PUBLIC_NEWS_API_KEY;
     const url = "https://newsapi.org/v2/everything";
+    console.log("API KEY:", apiKey); // or NEXT_PUBLIC_
 
     try {
         const response = await axios.get(url, {

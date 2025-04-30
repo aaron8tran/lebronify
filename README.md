@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏀 LeBronify
 
-## Getting Started
+**LeBronify** is a dynamic, AI-assisted web app that syncs iconic LeBron James audio moments with a shuffled sequence of curated highlight clips — creating fresh, mini-edits with every play.
 
-First, run the development server:
+Whether you're a basketball fan, a creative coder, or just love watching the GOAT, LeBronify gives you theatre-mode edits at the press of a button.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎧 **Audio-synced highlight generation** – Automatically aligns LeBron songs, speeches, or parody audio with video clip transitions using beat/onset detection.
+- 🔁 **Shuffled edits** – Generates unique combinations of clips every time, avoiding repetition.
+- 📱 **Theatre Mode** – An immersive viewing mode with synced visuals and audio.
+- 📂 **Local media-based editing** – Works off your own curated `.mp4` and `.mp3` libraries.
+- 🧠 **Librosa-based beat mapping** – Uses advanced onset detection to identify high-impact moments in audio.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js + React** – FE and routing
+- **Tailwind CSS** – Styling the FE
+- **librosa (Python)** – Audio analysis and beatmap generation
+- **Node.js API Routes** – BE audio syncing logic
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 How It Works
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Select a song from the home page.
+2. LeBronify analyzes the audio and builds a fine-tuned beatmap using librosa.
+3. Shuffled video clips are selected and auto-synced to the beat.
+4. In Theatre Mode, users get a full-screen LeBron edit that feels like a trailer, Brainrot video, or meme — powered by real-time generation.

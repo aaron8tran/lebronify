@@ -48,6 +48,8 @@ next-env.d.ts
 *.avi
 *.mkv
 *.webm
+*.lrc
 
 public/clips/*.mp4
 public/music/*.mp3
+public/lyrics/*.lrc

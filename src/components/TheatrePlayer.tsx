@@ -132,7 +132,7 @@ export default function TheatrePlayer({ song, onExit }: { song: string; onExit: 
                     <button
                         type="button"
                         onClick={onExit}
-                        className="absolute top-4 right-4 z-10 text-black bg-white px-4 py-2 rounded text-5xl"
+                        className="absolute top-4 right-4 z-50 text-black bg-white px-4 py-2 rounded text-3xl"
                     >
                         X
                     </button>
