@@ -1,0 +1,118 @@
+
+.rhap_container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    margin: auto;
+    padding: 0 1rem;
+  }
+
+  /* 2. Shrink play/pause/skip buttons */
+    .rhap_main-controls-button {
+    font-size: 2.25rem; /* smaller icons */
+  }
+  
+  
+  /* 4. Shrink progress bar */
+  .rhap_progress-bar,
+  .rhap_download-progress,
+  .rhap_progress-filled {
+    height: 4px;
+    border-radius: 2px;
+  }
+  
+  /* 5. Shrink volume slider if you are using it */
+  .rhap_volume-bar {
+    height: 4px;
+  }
+
+  /* 
+
+  .rhap_volume-filled {
+    background-color: #000;
+  }
+
+  .rhap_volume-filled:hover {
+    background-color: #552583;
+  }
+
+  .rhap_volume-indicator {
+    background-color: #000;
+  }
+  
+  .rhap_volume-indicator {
+    background-color: #FDB927;
+    width: 12px;
+    height: 12px;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 0;
+  } */
+
+  
+  /* Optional: Center the controls better */
+  .rhap_controls-section {
+    margin-bottom: 0.1rem;
+  }
+
+  .rhap_time {
+    font-size: .75rem;
+    color: #fff;
+  }
+
+  .rhap_progress-bar {
+    background-color: #222; /* base background */
+  }
+  
+  .rhap_download-progress {
+    background-color: #222; /* match same base background */
+  }
+
+  .rhap_progress-filled {
+    background-color: #fff; /* Background of full progress bar */
+  }
+  
+  .rhap_progress-filled:hover {
+    background-color: #552583
+  }
+  
+  .rhap_progress-indicator {
+    background-color: #FDB927;
+    width: 12px;
+    height: 12px;
+    left: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 0;
+  }
+
+  .rhap_progress-bar:hover .rhap_progress-indicator,
+  .rhap_download-progress:hover .rhap_progress-indicator {
+    opacity: 1;
+}
+
+  
+  .rhap_main-controls-button {
+    color: #fff;
+  }
+
+  .rhap_container:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Also remove on control buttons (play/pause/skip) */
+  .rhap_main-controls-button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Remove focus on progress section if needed */
+  .rhap_progress-bar:focus {
+    outline: none;
+  }
+
+  

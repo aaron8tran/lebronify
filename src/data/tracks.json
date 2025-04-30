@@ -1,0 +1,155 @@
+{
+  "a-bron-song-nojo": {
+    "title": "A Bron Song",
+    "artist": "NOJO",
+    "bpm": 81,
+    "length": 168,
+    "key": "A major",
+    "lyrics_file": "a-bron-song-nojo.lrc",
+    "cover_image": "a-bron-song-cover.webp"
+  },
+  "big-time-bron-nojo": {
+    "title": "Big Time Bron",
+    "artist": "NOJO",
+    "bpm": 82,
+    "length": 76,
+    "key": "C# minor",
+    "lyrics_file": "big-time-bron-nojo.lrc",
+    "cover_image": "big-time-bron-cover.webp"
+  },
+  "brons-room-nojo": {
+    "title": "Bron's Room",
+    "artist": "NOJO",
+    "bpm": 84,
+    "length": 92,
+    "key": "C major",
+    "lyrics_file": "brons-room-nojo.lrc",
+    "cover_image": "brons-room-cover.webp"
+  },
+  "california-lebron-nojo": {
+    "title": "California LeBron",
+    "artist": "NOJO",
+    "bpm": 125,
+    "length": 104,
+    "key": "F major",
+    "lyrics_file": "california-lebron-nojo.lrc",
+    "cover_image": "california-lebron-cover.webp"
+  },
+  "dunk-with-a-smile-wicked": {
+    "title": "Dunk With a Smile",
+    "artist": "wicked",
+    "bpm": 158,
+    "length": 74,
+    "key": "F# minor",
+    "lyrics_file": "dunk-with-a-smile-wicked.lrc",
+    "cover_image": "dunk-with-a-smile-cover.webp"
+  },
+  "id-catch-a-lenade-for-you-ecentral": {
+    "title": "I'd Catch a Lenade for You",
+    "artist": "ecentral",
+    "bpm": 110,
+    "length": 57,
+    "key": "G# minor",
+    "lyrics_file": "id-catch-a-lenade-for-you-ecentral.lrc",
+    "cover_image": "id-catch-a-lenade-for-you-cover.webp"
+  },
+  "lebron-hour-ecentral": {
+    "title": "LeBron Hour",
+    "artist": "ecentral",
+    "bpm": 126,
+    "length": 37,
+    "key": "E major",
+    "lyrics_file": "lebron-hour-ecentral.lrc",
+    "cover_image": "lebron-hour-cover.webp"
+  },
+  "lebron-that-i-used-to-know-ecentral": {
+    "title": "LeBron That I Used to Know",
+    "artist": "ecentral",
+    "bpm": 155,
+    "length": 45,
+    "key": "G# major",
+    "lyrics_file": "lebron-that-i-used-to-know.lrc",
+    "cover_image": "lebron-that-i-used-to-know-cover.webp"
+  },
+  "leplay-nojo": {
+    "title": "Leplay",
+    "artist": "NOJO",
+    "bpm": 91,
+    "length": 84,
+    "key": "A major",
+    "lyrics_file": "leplay-nojo.lrc",
+    "cover_image": "leplay-cover.webp"
+  },
+  "lestiches-nojo": {
+    "title": "Lestiches",
+    "artist": "NOJO",
+    "bpm": 75,
+    "length": 77,
+    "key": "A# minor",
+    "lyrics_file": "lestiches-nojo.lrc",
+    "cover_image": "lestiches-cover.webp"
+  },
+  "let-me-feel-myself-nojo": {
+    "title": "Let Me Feel Myself",
+    "artist": "NOJO",
+    "bpm": 97,
+    "length": 106,
+    "key": "E minor",
+    "lyrics_file": "let-me-feel-myself-nojo.lrc",
+    "cover_image": "let-me-feel-myself-cover.webp"
+  },
+  "love-lebron-nojo": {
+    "title": "Love LeBron",
+    "artist": "NOJO",
+    "bpm": 100,
+    "length": 174,
+    "key": "E major",
+    "lyrics_file": "love-lebron-nojo.lrc",
+    "cover_image": "love-lebron-cover.webp"
+  },
+  "number-23-jelly-house": {
+    "title": "Number 23",
+    "artist": "Jelly House",
+    "bpm": 95,
+    "length": 207,
+    "key": "D major",
+    "lyrics_file": "number-23-jelly-house.lrc",
+    "cover_image": "number-23-cover.webp"
+  },
+  "on-my-body-nojo": {
+    "title": "On My Body",
+    "artist": "NOJO",
+    "bpm": 83,
+    "length": 65,
+    "key": "D minor",
+    "lyrics_file": "on-my-body-nojo.lrc",
+    "cover_image": "on-my-body-cover.webp"
+  },
+  "reigning-in-la-okayspade": {
+    "title": "Reigning in LA",
+    "artist": "OkaySpade",
+    "bpm": 134,
+    "length": 94,
+    "key": "D# minor",
+    "lyrics_file": "reigning-in-la-okayspade.lrc",
+    "cover_image": "reigning-in-la-cover.webp"
+  },
+  "thats-bron-ecentral": {
+    "title": "That's Bron",
+    "artist": "ecentral",
+    "bpm": 140,
+    "length": 90,
+    "key": "D# major",
+    "lyrics_file": "thats-bron-ecentral.lrc",
+    "cover_image": "thats-bron-cover.webp"
+  },
+  "thinking-about-lebron-ecentral": {
+    "title": "Thinking About LeBron",
+    "artist": "ecentral",
+    "bpm": 74,
+    "length": 67,
+    "key": "C# minor",
+    "lyrics_file": "thinking-about-lebron-ecentral.lrc",
+    "cover_image": "thinking-about-lebron-cover.webp"
+  }
+}
